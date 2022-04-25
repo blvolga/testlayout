@@ -14,14 +14,16 @@
        /* margin: 0 auto;*/
     }
     h1 {
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 47;
         line-height: 59px;
         color: #070707;
     }
 
     h2 {
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 34px;
         line-height: 42px;
         text-align: center;
@@ -86,7 +88,8 @@
         display: flex;
         justify-content: space-between;
         text-align: left;
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 47px;
         line-height: 59px;
         color: #000000;
@@ -139,7 +142,7 @@
         top: -12px;
         
     }
-    
+
     .button-menu-div:after {
         top: 12px; 
     }
@@ -172,7 +175,8 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 14px;
         line-height: 17px;
         text-align: center;
@@ -247,7 +251,8 @@
         min-width: 180px;
         background-color: #000000;
         color: #F6F6F6;
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 18px;
         line-height: 22px;
         border: 0;
@@ -278,14 +283,16 @@
         margin: 0 auto;
     }
     h1 {
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 47;
         line-height: 59px;
         color: #070707;
     }
 
     h2 {
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 34px;
         line-height: 42px;
         text-align: center;
@@ -337,7 +344,8 @@
     }
 
     .home-div-name {
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 47px;
         line-height: 59px;
         color: #000000;
@@ -374,7 +382,8 @@
         padding-bottom: 110px;
         display: flex;
         justify-content: space-between;
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 14px;
         line-height: 17px;
         text-align: center;
@@ -432,7 +441,8 @@
     }
 
     .button p {
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 18px;
         line-height: 22px;
         text-align: center;
@@ -472,7 +482,8 @@
         min-width: 180px;
         background-color: #000000;
         color: #F6F6F6;
-        font-family: 'Gilroy-Bold';
+        /*font-family: 'Gilroy-Bold';*/
+        font-weight: bold;
         font-size: 18px;
         line-height: 22px;
         border: 0;
