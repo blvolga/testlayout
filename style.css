@@ -9,9 +9,9 @@
 
     }
     .wrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin: 0 auto;
+        margin-left: 8%;
+        margin-right: 8%;
+       /* margin: 0 auto;*/
     }
     h1 {
         font-family: 'Gilroy-Bold';
@@ -84,7 +84,7 @@
     }
     .home-div-name {
         display: flex;
-        align-items: flex-end;
+        justify-content: space-between;
         text-align: left;
         font-family: 'Gilroy-Bold';
         font-size: 47px;
@@ -99,7 +99,39 @@
         margin-bottom: 37px;
     }
 
-
+    .button-menu {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+        width: 55px;
+        height: 40px;
+        border: 0;
+        background: #fff;
+        padding: 0;
+     }
+      
+      .button-menu-div {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 6px;
+        background: #000000;
+        cursor: pointer; }
+        .button-menu-div div {
+          width: 100%;
+          height: 100%; }
+        .button-menu-div:before, .button-menu-div:after {
+          content: "";
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          background: #000000; }
+        .button-menu-div:before {
+          top: -12px; }
+        .button-menu-div:after {
+          top: 12px; }
 
     .home-div-lang {
         display: none;
@@ -180,23 +212,6 @@
         color: #070707;
     }
 
-    .button {
-        position: relative;
-        text-align: center;
-        height: 42px;
-        margin-bottom: 86px;
-    }
-
-    .button p {
-        font-family: 'Gilroy-Bold';
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-        color: #ffffff;
-        position: relative;
-        bottom: 56px;
-    }
-
     .links {
         display: flex;
         justify-content: space-between;
@@ -212,6 +227,21 @@
         color: #828282;
         padding-top: 46px;
         padding-bottom: 200px;
+    }
+
+    .real-button {
+        height: 42px;
+        min-width: 180px;
+        background-color: #000000;
+        color: #F6F6F6;
+        font-family: 'Gilroy-Bold';
+        font-size: 18px;
+        line-height: 22px;
+        border: 0;
+        border-radius: 21px;
+        margin-top: 40px;
+        margin-bottom: 86px;
+        width: 100%;
     }
 
 }
@@ -298,6 +328,10 @@
         font-size: 47px;
         line-height: 59px;
         color: #000000;
+    }
+
+    .button-menu {
+        display: none;
     }
 
     .home-div-lang {
@@ -419,4 +453,23 @@
         position: fixed;
     }
 
+    .real-button {
+        transition: 500ms;
+        height: 42px;
+        min-width: 180px;
+        background-color: #000000;
+        color: #F6F6F6;
+        font-family: 'Gilroy-Bold';
+        font-size: 18px;
+        line-height: 22px;
+        border: 0;
+        border-radius: 21px;
+        margin-bottom: 86px;
+    }
+
+    .real-button:hover {
+        background-color: #696d69;
+        transition: 500ms;
+        cursor: pointer;
+    }
 }
