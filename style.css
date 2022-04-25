@@ -111,31 +111,44 @@
         padding: 0;
      }
       
-      .button-menu-div {
+    .button-menu-div {
         position: relative;
         display: block;
         width: 100%;
         height: 6px;
         background: #000000;
-        cursor: pointer; }
-        .button-menu-div div {
-          width: 100%;
-          height: 100%; }
-        .button-menu-div:before, .button-menu-div:after {
-          content: "";
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          left: 0;
-          background: #000000; }
-        .button-menu-div:before {
-          top: -12px; }
-        .button-menu-div:after {
-          top: 12px; }
+        cursor: pointer; 
+    }
+
+    .button-menu-div div {
+        width: 100%;
+        height: 100%; 
+    }
+
+    .button-menu-div:before, .button-menu-div:after 
+    {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        background: #000000; 
+    }
+
+    .button-menu-div:before {
+        top: -12px;
+        
+    }
+    
+    .button-menu-div:after {
+        top: 12px; 
+    }
+    
 
     .home-div-lang {
         display: none;
     }
+
     .photo {
         padding-bottom: 104px;
     }
